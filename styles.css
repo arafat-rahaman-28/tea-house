@@ -1,1 +1,30 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+.box-1 {
+	border-radius: 10px;
+
+	background: linear-gradient(
+		270deg,
+		rgba(255, 0, 0, 1),
+		rgba(255, 137.00003051757812, 55.999996185302734, 1) 100%
+	);
+	opacity: 0.1;
+}
+.box-2 {
+	border-radius: 10px;
+	background: rgba(230, 166, 35, 0.1);
+}
+.box-3 {
+	border-radius: 10px;
+
+	background: rgba(87, 118, 57, 0.1);
+}
+.box-4 {
+	border-radius: 10px;
+
+	background: linear-gradient(
+		90deg,
+		rgba(217, 217, 217, 1),
+		rgba(255, 255, 255, 0) 100%
+	);
+}
