@@ -20,10 +20,10 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body>
+	<body class="pb-[100px]">
 		<!-- BANNER SECTION -->
 		<div
-			class="bapnner-parent-container max-w-[1240px] mx-auto flex justify-between items-center"
+			class="bapnner-parent-container max-w-[1240px] mx-auto flex justify-between items-center flex-col md:flex-row"
 		>
 			<div class="left-container">
 				<h1 class="text-[80px] font-bold">
@@ -36,22 +36,105 @@
 					Satisfaction To Your Taste Buds.
 				</p>
 				<button
-					class="px-[20px] py-[18px] rounded-[10px] bg-emerald-300 text-[20px] text-white"
+					class="px-[20px] py-[18px] rounded-[10px] bg-gradient-to-l from-[#ff0000] to-[#ff8938] text-[20px] font-bold text-white flex gap-4"
 				>
 					Explore More
+					<img
+						src="images/arrow.png"
+						class="h-[24px] w-[24px]"
+						alt=""
+					/>
 				</button>
 			</div>
-			<div class="right-container">
-				<img class="" src="images/banner.png" alt="" />
+			<div class="right-container relative">
+				<img
+					class="relative top-[100px]"
+					src="images/banner.png"
+					alt=""
+				/>
 				<!-- rating pop up -->
 				<div
-					class="py-[18px] px-[28px] w-[255px] justify-center rounded-2xl shadow-lg"
+					class="py-[18px] px-[28px] w-[255px] justify-center rounded-2xl shadow-lg absolute bg-white left-[100px]"
 				>
 					<div class="flex text-4xl gap-2 justify-center">
 						<span><i class="fa-solid fa-star"></i></span>
 						<p class="font-bold">5.00</p>
 					</div>
 					<p class="text-center">Trust Pilot Ratings</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- FEATURED PRODUCTS SECTION -->
+		<div
+			class="featured-products-parent-div max-w-[1240px] mx-auto mt-40 text-center"
+		>
+			<h1 class="text-[45px] font-bold mb-[20px]">
+				Our Featured Products
+			</h1>
+			<p class="font-medium text-[#777777] mb-[50px]">
+				There are many variations of passages of Lorem Ipsum available,
+				but the majority have suffered alteration in some form, by
+				injected humour, or randomised words which don't look even
+				slightly believable.
+			</p>
+			<div
+				class="product-cart-container grid grid-cols-1 md:grid-cols-4 gap-4"
+			>
+				<div
+					class="product-cart flex flex-col justify-center items-center w-[267px] p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4]/0 rounded-[10px] shadow-lg"
+				>
+					<img
+						class="w-[135px] mb-[30px]"
+						src="images/tea-1.png"
+						alt=""
+					/>
+					<p class="mb-[10px] font-bold text-2xl">Milk Tea</p>
+					<p class="text-[16px]">
+						Cream could be replaced by fresh milk
+					</p>
+				</div>
+
+				<div
+					class="product-cart flex flex-col justify-center items-center w-[267px] p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4]/0 rounded-[10px] shadow-lg"
+				>
+					<img
+						class="w-[135px] mb-[30px]"
+						src="images/tea-2.png"
+						alt=""
+					/>
+					<p class="mb-[10px] font-bold text-2xl">Milk Tea</p>
+					<p class="text-[16px]">
+						Cream could be replaced by fresh milk
+					</p>
+				</div>
+
+				<div
+					class="product-cart flex flex-col justify-center items-center w-[267px] p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4]/0 rounded-[10px] shadow-lg"
+				>
+					<img
+						class="w-[135px] mb-[30px]"
+						src="images/tea-3.png"
+						alt=""
+					/>
+					<p class="mb-[10px] font-bold text-2xl">Milk Tea</p>
+					<p class="text-[16px]">
+						Cream could be replaced by fresh milk
+					</p>
+				</div>
+
+				<div
+					class="product-cart flex flex-col justify-center items-center w-[267px] p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4]/0 rounded-[10px] shadow-lg"
+				>
+					<img
+						class="w-[135px] mb-[30px]"
+						src="images/tea-4.png"
+						alt=""
+					/>
+					<p class="mb-[10px] font-bold text-2xl">Milk Tea</p>
+					<p class="text-[16px]">
+						Cream could be replaced by fresh milk
+					</p>
 				</div>
 			</div>
 		</div>
